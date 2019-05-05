@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .main.container
+    .row
+      .col-md-6.col-md-offset-3
+        h1.display-4.m-b-2 Upload json file
+        
+        form(method='POST' action='/upload' enctype='multipart/form-data')
+          div.form-group
+            label(for='file') File:
+            input#file.form-control(type='file' name='file' accept='application/json')
+          br
+          button.btn.btn-primary(type='submit') Upload

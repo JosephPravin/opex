@@ -1,0 +1,15 @@
+{
+  "COMMENT": "TEST FILE FOR UPLOAD",
+  "loadMaster": [
+    {
+      "table_": "shipmentdata",
+      "master_circle": "a123",
+      "parent_circle": "1",
+      "children_circle": "a123",
+      "parent_size": 30000,
+      "children_size": 25000,
+      "parent_tooltip": "560",
+      "children_tooltip": "275"
+    }
+  ]
+}

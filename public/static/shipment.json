@@ -1,0 +1,24 @@
+{
+  "name": "a",
+  "value": 200,
+  "children": [
+    {
+      "name": "b",
+      "value": 170,
+      "children": [
+        {
+          "name": "d",
+          "value": 80
+        },
+        {
+          "name": "e",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "c",
+      "value": 130
+    }
+  ]
+}
