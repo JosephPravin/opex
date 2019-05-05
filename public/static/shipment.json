@@ -1,23 +1,23 @@
 {
-  "name": "a",
+  "name": "master",
   "value": 200,
   "children": [
     {
-      "name": "b",
+      "name": "parent1",
       "value": 170,
       "children": [
         {
-          "name": "d",
+          "name": "child1",
           "value": 80
         },
         {
-          "name": "e",
+          "name": "child2",
           "value": 50
         }
       ]
     },
     {
-      "name": "c",
+      "name": "parent2",
       "value": 130
     }
   ]
